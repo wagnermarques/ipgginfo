@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-    background-image: url(./IMAGENS/ipgg.png);
+    background-image: url(./ipgg.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

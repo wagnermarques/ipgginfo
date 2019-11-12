@@ -1,0 +1,23 @@
+{
+  "name": "totem_info",
+  "version": "1.0.0",
+  "description": "totem de informacoes ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karindoy/Totem_info.git"
+  },
+  "author": "Suellen Karin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karindoy/Totem_info/issues"
+  },
+  "homepage": "https://github.com/karindoy/Totem_info#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.7.2"
+  }
+}
