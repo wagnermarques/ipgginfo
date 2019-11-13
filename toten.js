@@ -23,10 +23,12 @@ toten.get('/', function (req, res) {
 toten.listen(3000, function () {
     console.log('toten on port 3000!');
 });
-toten.get('/PrototipodeTela2',function(req,res){
-    res.sendFile(path.join(__dirname+'/public/PrototipodeTela2.html'));
-  });
-
+toten.get('/PrototipodeTela2', function (req, res) {
+    res.sendFile(path.join(__dirname + '/public/PrototipodeTela2.html'));
+});
+toten.get('/PrototipodeTela3', function (req, res) {
+    res.sendFile(path.join(__dirname + '/public/PrototipodeTela3.html'));
+});
 
 toten.use(express.static(__dirname + '/public/css/'));
 toten.use(express.static(__dirname + '/public/img/'));
