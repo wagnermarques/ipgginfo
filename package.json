@@ -11,7 +11,8 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/intern/bin/intern.js",
+    "start": "node src/main.js"
   },
   "repository": {
     "type": "git",
