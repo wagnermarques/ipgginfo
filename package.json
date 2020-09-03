@@ -1,23 +1,27 @@
 {
-  "name": "totem_info",
+  "name": "ipgginfo",
   "version": "1.0.0",
-  "description": "totem de informacoes ",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karindoy/Totem_info.git"
+    "url": "git+https://github.com/wagnermarques/ipgginfo.git"
   },
-  "author": "Suellen Karin",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karindoy/Totem_info/issues"
+    "url": "https://github.com/wagnermarques/ipgginfo/issues"
   },
-  "homepage": "https://github.com/karindoy/Totem_info#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "typescript": "^3.7.2"
-  }
+  "homepage": "https://github.com/wagnermarques/ipgginfo#readme"
 }
