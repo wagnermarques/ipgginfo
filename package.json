@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "node_modules/intern/bin/intern.js",
-    "start": "node src/main.js"
+    "start": "node src/server/server.js"
   },
   "repository": {
     "type": "git",
